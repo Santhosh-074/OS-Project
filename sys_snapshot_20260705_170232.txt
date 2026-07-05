@@ -1,0 +1,158 @@
+=== SYSTEM SNAPSHOT ===
+
+
+[1m[36m━━━ CPU INFORMATION ━━━[0m
+  User Time            :     0.18 min
+  Nice Time            :     0.01 min
+  System Time          :     0.45 min
+  Idle Time            :   311.49 min
+  I/O Wait             :     0.07 min
+  IRQ Time             :     0.00 min
+  SoftIRQ Time         :     0.02 min
+  Steal Time           :     0.00 min
+  Total                :   312.23 min
+
+  [1mCPU Model     :[0m AMD Ryzen 7 8840U w/ Radeon 780M Graphics
+
+[1m[36m━━━ CPU EVENTS ━━━[0m
+  Total Interrupts   : 462848
+  Context Switches   : 652683
+  Processes Forked   : 1286
+  Procs Running Now  : 1
+  Procs Blocked(I/O) : 0
+
+  Measuring real-time CPU usage (1s sample)...
+  [1mOverall CPU : [0m[[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.1%
+
+[1m[32m━━━ SYSTEM UPTIME ━━━[0m
+  Uptime        : 0 days, 00:19:32
+  Total Seconds : 1173
+  CPU Idle Time : 18706 s  (1594.8% of uptime)
+
+[1m[33m━━━ LOAD AVERAGE ━━━[0m
+  1  Min Avg :  0.10  [[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.6%
+  5  Min Avg :  0.07  [[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.4%
+  15 Min Avg :  0.01  [[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.1%
+
+  Running Threads : 2 / 292
+  CPU Cores       : 16
+
+[1m[34m━━━ MEMORY INFORMATION ━━━[0m
+  RAM  Usage : [[32m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   9.9%
+  Swap Usage : [[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.0%
+
+  Total RAM              :  7588.19 MB
+  Used RAM               :   751.43 MB
+  Free RAM               :  6708.02 MB
+  Available              :  6713.89 MB
+  Buffers                :     5.93 MB
+  Cached                 :   122.81 MB
+  Shared(shmem)          :     3.53 MB
+  Anonymous              :   422.12 MB
+  Mapped                 :   103.14 MB
+  Dirty Pages            :     0.02 MB
+  Writeback              :     0.00 MB
+  Swap Total             :  2048.00 MB
+  Swap Used              :     0.00 MB
+  Swap Free              :  2048.00 MB
+
+[1m[35m━━━ PROCESS ANALYSIS ━━━[0m
+  Total Processes       : [1m23
+[0m  [32mRunning  (R)          : 1
+[0m  [34mSleeping (S)          : 22
+[0m  [33mDisk Sleep (D)        : 0
+[0m  [36mStopped  (T)          : 0
+[0m  [31mZombie   (Z)          : 0
+[0m
+[1m[36m━━━ TOP PROCESSES BY MEMORY ━━━[0m
+  PID    NAME                   STATE     MEM(MB)  THREADS  NICE
+  ──────────────────────────────────────────────────────
+  347    mysqld                 [0mS     [0m     386.21        0    20
+  301    unattended-upgr        [0mS     [0m      22.11        0    20
+  42     systemd-journal        [0mS     [0m      18.32       -1    19
+  163    systemd-resolve        [0mS     [0m      12.50        0    20
+  1      systemd                [0mS     [0m      11.73        0    20
+  504    systemd                [0mS     [0m      11.00        0    20
+  209    systemd-logind         [0mS     [0m       8.12        0    20
+  170    systemd-timesyn        [0mS     [0m       7.50        0    20
+  92     systemd-udevd          [0mS     [0m       6.12        0    20
+  249    rsyslogd               [0mS     [0m       5.38        0    20
+
+[1m[36m━━━ TOP PROCESSES BY CPU TIME ━━━[0m
+  PID    NAME                      USER_TIME     SYS_TIME        TOTAL
+  ────────────────────────────────────────────────────────
+  1      systemd                        2484           36         2520
+  347    mysqld                            0          520          520
+  2      init-systemd(Ub                 122            1          123
+  92     systemd-udevd                    43            9           52
+  6      init                              0           23           23
+  859    bash                             20            1           21
+  504    systemd                           3            9           12
+  301    unattended-upgr                   0           11           11
+  531    bash                              7            2            9
+  42     systemd-journal                   0            8            8
+
+[1m[34m━━━ NETWORK INTERFACES ━━━[0m
+  INTERFACE          RX_BYTES       TX_BYTES      RX_PKTS      TX_PKTS   RX_ERR   TX_ERR
+  ──────────────────────────────────────────────────────────────────────────
+  lo                     2730           2730           24           24        0        0
+  eth0                  46538          13139          226          146        0        0
+
+[1m[34m━━━ TCP CONNECTION STATES ━━━[0m
+  Total TCP      : 5
+  [32mESTABLISHED  : 0
+[0m  [36mLISTEN       : 5
+[0m  [33mTIME_WAIT    : 0
+[0m  [35mCLOSE_WAIT  : 0
+[0m
+[1m[33m━━━ DISK USAGE ━━━[0m
+  DEVICE             MOUNT          FSTYPE    TOTAL(GB)   USED(GB)   FREE(GB)  USE%%
+  ──────────────────────────────────────────────────────────────────────────
+  drivers            /usr/lib/wsl/drivers 9p           487.99     367.97     120.02  [33m75.4%
+[0m  /dev/sdd           /              ext4        1081.10       3.26    1077.84  [32m0.3%
+[0m  /dev/sdd           /mnt/wslg/distro ext4        1081.10       3.26    1077.84  [32m0.3%
+[0m  rootfs             /init          rootfs         3.97       0.00       3.97  [32m0.1%
+[0m  devpts             /dev/pts       devpts         0.00       0.00       0.00  [32m0.0%
+[0m  binfmt_misc        /proc/sys/fs/binfmt_misc binfmt_misc       0.00       0.00       0.00  [32m0.0%
+[0m  C:\134             /mnt/c         9p           487.99     367.97     120.02  [33m75.4%
+[0m  mqueue             /dev/mqueue    mqueue         0.00       0.00       0.00  [32m0.0%
+[0m  hugetlbfs          /dev/hugepages hugetlbfs       0.00       0.00       0.00  [32m0.0%
+[0m  debugfs            /sys/kernel/debug debugfs        0.00       0.00       0.00  [32m0.0%
+[0m  tracefs            /sys/kernel/tracing tracefs        0.00       0.00       0.00  [32m0.0%
+[0m  fusectl            /sys/fs/fuse/connections fusectl        0.00       0.00       0.00  [32m0.0%
+[0m  configfs           /sys/kernel/config configfs       0.00       0.00       0.00  [32m0.0%
+[0m
+[1m[33m━━━ DISK I/O STATISTICS ━━━[0m
+  DEVICE                READS       WRITES        READ_MB       WRITE_MB
+  ────────────────────────────────────────────────────────────
+  sdb                     140            0           6.77           0.00
+  sda                    1133            0          72.31           0.00
+  sdc                      98            2           2.18           0.00
+  sdd                    7380         1971         327.79          77.64
+
+[1m[36m━━━ FILE DESCRIPTORS & KERNEL LIMITS ━━━[0m
+  FD Allocated             : 1024
+  FD In Use                : 1024
+  FD Max                   : 9223372036854775807
+  FD Usage          : [[32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m]   0.0%
+  Max PID                  : 4194304
+  Max Threads              : 60626
+  VM Swappiness            : 60
+  IP Forwarding            : Disabled
+
+[1m[33m━━━ BATTERY USAGE MONITORING ━━━[0m
+  Battery Found     : BAT1
+
+  Capacity          : [[33m███████████████████████████████░░░░░░░░░[0m]  78.0%
+  Status            : [32mCharging[0m
+  Energy Now        : 3924 mWh
+  Energy Full       : 5000 mWh
+  Wear Level        : 21.5% capacity lost
+  Voltage           : 5.000 V
+  Capacity Level    : Normal
+  Technology        : Unknown
+  Charge Cycles     : -1
+  Power Draw        : 3.01 W
+[32m
+  Battery is charging (78%)
+[0m

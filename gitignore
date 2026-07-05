@@ -1,0 +1,12 @@
+# Compiled binaries
+*.o
+*.out
+analyzer
+
+# Runtime logs/snapshots (generated in /tmp, but ignore if copied locally)
+*.log
+sys_snapshot_*.txt
+
+# OS/editor junk
+.vscode/
+.DS_Store
